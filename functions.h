@@ -1,1 +1,1 @@
-
+int isOdd(int n);
