@@ -33,3 +33,24 @@ int reverseNumber(int n)
 
     return reversed * sign;
 }
+
+int lcm(int a , int b){
+    int max , min , x;
+    if (a==0 || b==0)
+    return 0;
+    if (a>b){
+        max = a;
+        min = b ; 
+            }
+    else {
+        max = b;
+        min = a;
+         }
+x=max ;
+while (1){
+    if (max % min ==0){
+        return max ;
+    }
+max +=x;
+}
+}
